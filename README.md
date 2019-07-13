@@ -1,2 +1,2 @@
 # ProfilePage
-A static HTML page that include my Resume and CV 
+A static HTML page that shows the lastest Resume and CV 
