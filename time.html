@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+    <style>
+        @font-face {
+            font-family: 'RTWS';
+            src: url('font/RTWSYueGoTrial-UltLight.otf') format('truetype');
+        }
+
+        h1 {
+            color: #eee;
+            font-family: 'RTWS';
+            text-align: center;
+        }
+        body {
+        background-color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div style="float:none"> 
+            <h1 style="font-size:80px;text-align: center;  margin-bottom: 0px;"> Meerkat Time : </h1>
+
+            <h1 style="font-size:400px; margin-top: 0px; margin-bottom: 0px;" id="time"> </h1>
+
+       
+    </div>
+        <script type="text/javascript">
+            window.onload = showLeftTime;
+            function showLeftTime() {
+                var now = new Date();
+                var year = now.getYear();
+                var month = now.getMonth();
+                var day = now.getDate();
+                var hours = now.getHours();
+                var minutes = now.getMinutes();
+                var seconds = now.getSeconds();
+                if (hours < 10) { hours = "0" + hours; }
+                if (minutes < 10) { minutes = "0" + minutes; }
+                document.getElementById("time").innerHTML = hours + ":" + minutes;
+                var timeID = setTimeout(showLeftTime, 30000);
+
+            }
+        </script>
+</body>
+</html>
