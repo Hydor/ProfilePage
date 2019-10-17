@@ -11,5 +11,8 @@ margin-top:90px;
 text-align:right;
 }
 .progress {
-width:300px;
+width:310px;
+}
+.table tr{
+    height:60px;
 }

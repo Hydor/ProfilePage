@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\pdf"
   ],
+  "SelectedNode": "\\css\\extra.css",
   "PreviewInSolutionExplorer": false
 }
