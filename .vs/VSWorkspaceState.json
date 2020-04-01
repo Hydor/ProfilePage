@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img"
+    "\\img",
+    "\\img\\icons",
+    "\\js"
   ],
-  "SelectedNode": "\\img\\gw_logo.jpg",
+  "SelectedNode": "\\img\\icons",
   "PreviewInSolutionExplorer": false
 }
